@@ -12,7 +12,7 @@ public class Categorias {
                 +   ID+" INTEGER PRIMARY KEY AUTOINCREMENT, "
                 +   NOMBRE_CATEGORIA+" TEXT, "
                 +   ST_CATEGORIA+" TEXT, "
-                + "UNIQUE (" + Perfil.ID + "))";
+                + "UNIQUE (" + ID + "))";
         return sql;
     }
     public static String dropString(){
